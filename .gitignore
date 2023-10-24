@@ -1,0 +1,28 @@
+# Compiled files
+*.ex4
+*.ex5
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Personal settings (depending on your setup)
+terminal.ini
+*.hst
+*.set
+
+# Backup and other miscellaneous files
+*.old
+*.backup
+*.swp
+*~
+
+# Folders (if not required)
+Cache/
+logs/
+tester/
+
+# If using any other tooling or IDE that creates specific files
+# For example, if you're using some editors like VS Code
+.vscode/
