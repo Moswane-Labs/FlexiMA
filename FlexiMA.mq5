@@ -3,8 +3,22 @@
 //|                                      Copyright 2023, MoswaneLabs |
 //|                          https://github.com/Moswane-Labs/FlexiMA |
 //+------------------------------------------------------------------+
+#property copyright "Copyright 2023, MoswaneLabs"
+#property link      "https://github.com/Moswane-Labs/FlexiMA"
+#property version   "1.00"
+#property indicator_chart_window
+#property indicator_buffers 1
+#property indicator_plots   1
+//--- plot MA
+#property indicator_label1  "MA"
+#property indicator_type1   DRAW_LINE
+#property indicator_color1  clrBlue
+#property indicator_style1  STYLE_SOLID
+#property indicator_width1  1
 //--- input parameters
-input int      MaPeriod=14;
+input int      MaPeriod;
+input string   MaMethod;
+input string   AppliedPrice;
 //--- indicator buffers
 double         MABuffer[];
 //+------------------------------------------------------------------+
