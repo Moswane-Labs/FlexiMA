@@ -2,6 +2,9 @@
 *.ex4
 *.ex5
 
+# Project files
+*.mqproj
+
 # Temporary files
 *.tmp
 *.bak
